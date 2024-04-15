@@ -1,0 +1,19 @@
+{
+  "name": "task-manager-project",
+  "version": "1.0.0",
+  "description": "Its a task manager application with server support",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Varun Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
