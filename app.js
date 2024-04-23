@@ -6,6 +6,7 @@ require("dotenv").config();
 
 
 //middleware
+app.use(express.static("./public"))
 app.use(express.json());   //if we dont use this we wont have that data in req.body
 
 
